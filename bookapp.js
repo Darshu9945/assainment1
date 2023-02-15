@@ -23,7 +23,7 @@ btn.addEventListener('submit',adduser);
         }
         
         const li =document.createElement('li')
-          let k =name + "-" + email +"-" + description1
+          let k =name + "-" + email +"-" + description1 + " "
           console.log(k)
           
           var k3 =document.createTextNode(k)
